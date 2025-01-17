@@ -1,14 +1,4 @@
-public class Addition {
-    public static void main(String[] args) {
-        // Declare two variables
-        int num1 = 10;
-        int num2 = 20;
-
-        // Perform addition
-        int sum = num1 + num2;
-
-        // Print the result
-        System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
-    }
-}
-
+num1 = input("Enter first number: ")
+num2 = input("Enter second number: ")
+sum = float(num1) + float(num2)
+print("The sum is:", sum)
